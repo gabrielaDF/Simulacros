@@ -1,4 +1,4 @@
-import losTutoresLogo from "./assets/losTutoresLogo.png";
+import losTutoresLogo from "../../assets/losTutoresLogo.png";
 import { NavLink } from "react-router-dom";
 function Navbar() {
   return (
@@ -8,7 +8,7 @@ function Navbar() {
           <img
             src={losTutoresLogo}
             alt="Los Tutores"
-            className="w-20 h-20 object-contain "
+            className="w-40 h-auto object-contain "
           />
         </div>
       </NavLink>
