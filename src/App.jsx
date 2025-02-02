@@ -5,7 +5,7 @@ import Home from "../src/Components/User/Home";
 import UserLogin from "./Components/User/Login";
 import UserForm from "./Components/User/userform";
 import SimulacrosResumen from "./Components/User/SimulacrosResumen";
-
+import EnvironmentalCalculator from "./Components/Calculator/Calculator";
 function App() {
   return (
     <div>
@@ -15,6 +15,7 @@ function App() {
         <Route path="/login" element={<UserLogin />} />
         <Route path="/userform" element={<UserForm />} />
         <Route path="/summary" element={<SimulacrosResumen />} />
+        <Route path="/calculator" element={<EnvironmentalCalculator />} />
       </Routes>
     </div>
   );
